@@ -6,6 +6,7 @@ import { useState } from "react";
 import HeaderWidget from "../components/HeaderWidget";
 import Hero from "@/components/Hero";
 import AboutWidget from "@/components/AboutWidget";
+import SectionWidget from "@/components/SectionWidget";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <main className={`${Futura.className} p-2`}>
    <Hero/>
    <AboutWidget/>
+   <SectionWidget/>
      </main>
   );
 }

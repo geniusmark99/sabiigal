@@ -21,21 +21,25 @@ const variants = {
 
 const colors = ["#FF008C", "#D309E1", "#9C1AFF", "#7700FF", "#4400FF"];
 
-export const MenuItem = ({ i }) => {
-  const style = { border: `2px solid ${colors[i]}` };
-  return (
-    <motion.li
-    className="menu-list-li"
-      variants={variants}
-      whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: 0.95 }}
-    >
-      {/* <div className="icon-placeholder" style={style}>
-  {i}
-      </div> */}
-      <div className="text-placeholder" style={style}>
-{i}
-      </div>
-    </motion.li>
-  );
+export const MenuItem = ({menus}) => {
+
+const List = menus.map(object => (
+  <motion.li key={object.id} className="menu-list-li text-black"  
+     variants={variants}
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.95 }}
+  >
+      <div className="text-placeholder px-2 py-2" style={{border: `2px solid ${colors[object.id]}`}}>
+{object.label}
+ </div>
+  </motion.li>
+));
+
+return (
+  <>
+    {List}
+  </>
+);
+
+
 };
