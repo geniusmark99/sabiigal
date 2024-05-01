@@ -95,7 +95,7 @@ return <>
 
     <p  className="text-[18px] text-center max-w-[320px] lg:max-w-[500px] mx-auto mb-40">Forge &apos; s sales and marketing solutions are strategically assigned each month to adapt quickly and hit your goals.</p> 
 
-    <a  target="_blank" className="bg-white px-6 py-4 rounded-xl text-black font-bold text-xl cursor-pointer hover:bg-opacity-95 transition-all hover:scale-[9">Book a Free Consultation</a>
+    <a  target="_blank" className="bg-white px-6 py-4 rounded-xl text-black font-bold text-xl cursor-pointer hover:bg-opacity-95 transition-all hover:scale-95">Book a Free Consultation</a>
 
 </div>
 
