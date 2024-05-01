@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .desktop-link{
+    @apply relative cursor-pointer text-lg
+  }
+
+  .desktop-link::after {
+ @apply absolute content-[''] w-0 will-change-['width'] h-0.5 bg-white -bottom-1 left-0 transition-all
+  }
+
+  .desktop-link:hover {
+    /* @apply  */
+  }
+  .desktop-link:hover::after {
+    @apply w-full
+
+  }
+
+  .hero-h1 {
+    @apply lg:mb-[-12px] pr-[3px] inline-block mx-1
+  }
+}
