@@ -9,7 +9,7 @@ const Futura = localFont({
 
 export default function HeaderMeWidget(){
 return <>
-<div className="flex flex-col gap-0 mt-40 lg:mt-10 justify-center items-center h-[60%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
+{/* <div className="flex flex-col gap-0 mt-40 lg:mt-10 justify-center items-center h-[60%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
 <div className=" max-w-[848px] w-full mx-auto mt-[40px] flex flex-col justify-center items-center ">
     <a href="#testimonials" className="transition-all hover:scale-95 hover:shadow-md hover:shadow-blue-600/10 mb-2 lg:mb-10 flex flex-nowrap bg-white/10 items-center gap-x-4 px-4 py-1 rounded-full border border-1 border-white/20" 
 
@@ -101,7 +101,7 @@ return <>
 
 
 
-</div>
+</div> */}
 
 
 </>
