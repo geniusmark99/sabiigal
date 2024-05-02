@@ -106,9 +106,9 @@ return <>
 
     <p  className="text-[18px] text-center max-w-[320px] lg:max-w-[500px] mx-auto mb-10 hidden lg:block">My sales and marketing solutions are strategically assigned each month to adapt quickly and hit your goals.</p> 
 
-    <a href="#" className="relative inline-block w-full p-px rounded-lg sm:w-auto group h-11 bg-gradient-to-r from-purple-600 to-sky-500 dark:from-purple-600 dark:to-blue-400 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-400 before:to-sky-400 dark:before:from-purple-600 dark:before:to-sky-500 before:scale-75 before:opacity-50 before:rounded-md before:blur-lg before:transition before:duration-300 active:before:scale-90 focus:before:scale-90 focus:before:opacity-75 hover:before:scale-100 hover:before:opacity-100">
-    <p className="relative flex justify-center h-full text-sm font-medium items-center text-white tracking-wide bg-gray-950 px-[calc(1.5rem-1px)] rounded-[calc(0.5rem-1px)] group-hover:bg-gray-900 transition duration-300"> 
-    Book a Consultation in Trading
+    <a href="https://api.whatsapp.com/send?phone=2347086309488" className="relative inline-block min-w-60  p-px rounded-lg sm:w-auto group h-11 bg-gradient-to-r from-purple-600 to-sky-500 dark:from-purple-600 dark:to-blue-400 before:absolute before:inset-0 before:bg-gradient-to-r before:from-purple-400 before:to-sky-400 dark:before:from-purple-600 dark:before:to-sky-500 before:scale-75 before:opacity-50 before:rounded-md before:blur-lg before:transition before:duration-300 active:before:scale-90 focus:before:scale-90 focus:before:opacity-75 hover:before:scale-100 hover:before:opacity-100">
+    <p className="relative flex justify-center h-full text-sm md:text-base font-medium items-center text-white tracking-wide bg-gray-950 px-[calc(1.5rem-1px)] rounded-[calc(0.5rem-1px)] group-hover:bg-gray-900 transition duration-300"> 
+    Book a Consultation
     </p>
 </a>
 

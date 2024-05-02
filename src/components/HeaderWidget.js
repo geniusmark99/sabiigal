@@ -90,7 +90,7 @@ const sidebar = {
   },
   {
     id:4,
-    label:"Testimonies"
+    label:"Training"
   },
 
 ]
@@ -137,7 +137,7 @@ Services
 </li>
 
 <li className="desktop-link">
-Testimonies
+Trainings
 </li>
 
 </ul>

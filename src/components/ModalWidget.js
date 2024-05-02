@@ -1,14 +1,21 @@
+import { motion } from "framer-motion";
+
 const ModalWidget = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className={ `fixed z-10 inset-0 overflow-y-auto transition-all scale-0 ${isOpen ? "scale-100" : "scale-0"} text-black`}>
+    <motion.div
+    initial={{ opacity: 0,scale:0 }}
+    animate={{ opacity: 1,scale:1 }}
+    exit={{ opacity: 0, scale:0 }}
+    
+    className={ `fixed z-10 inset-0 overflow-y-auto transition-all scale-0 ${isOpen ? "scale-100" : "scale-0"} text-black`}>
       <div className="flex items-center justify-center min-h-screen px-4">
         <div
           className="fixed inset-0 transition-opacity"
           onClick={onClose}
         >
-          <div className="absolute inset-0 bg-slate-100/10 opacity-75"></div>
+          <div className="absolute inset-0 opacity-75"></div>
         </div>
         <div className="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all w-full lg:w-[400px]">
           <div className="px-6 py-4">
@@ -42,7 +49,7 @@ const ModalWidget = ({ isOpen, onClose }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
