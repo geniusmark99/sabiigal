@@ -16,16 +16,14 @@ const Futura = localFont({
 
 export default function HeaderMeWidget(){
 return <>
-<div className="mb-30 flex flex-col gap-0 mt-40 lg:mt-10 justify-center items-center h-[70%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
+<div className="flex flex-col gap-0 lg:mt-40 mt-20 justify-center items-center h-[70%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
 
-
-
-
-<div className="container mx-auto">
+<div className="container mx-auto mb-40">
     <div className="w-full h-full lg:h-[500px] flex flex-col lg:flex-row">
+        {/* <SliderWidget images={SabiiImages}/> */}
     <img
            src="./images/sabii_gal3.png"
-            className="w-auto md:w-[350px] lg:w-[400px] h-full object-cover rounded-lg"
+            className="w-auto md:w-[350px] lg:w-[500px] h-full object-cover rounded-lg"
           />
 
           <div className="w-full lg:w-8/12">

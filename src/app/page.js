@@ -25,9 +25,9 @@ export default function Home() {
   return (
       <main className={`${Futura.className} p-2`} >
    <Hero/>
-   {/* <AboutWidget/>
-   <SectionWidget/> */}
-   {/* <FooterWidget/> */}
+   <AboutWidget/>
+   {/* <SectionWidget/> */}
+   <FooterWidget/>
      </main>
   );
 }
