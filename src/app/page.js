@@ -7,6 +7,7 @@ import HeaderWidget from "../components/HeaderWidget";
 import Hero from "@/components/Hero";
 import AboutWidget from "@/components/AboutWidget";
 import SectionWidget from "@/components/SectionWidget";
+import FooterWidget from "@/components/FooterWidget";
 
 
 
@@ -22,10 +23,11 @@ export default function Home() {
 
 
   return (
-      <main className={`${Futura.className} p-2`}>
+      <main className={`${Futura.className} p-2`} >
    <Hero/>
-   <AboutWidget/>
-   <SectionWidget/>
+   {/* <AboutWidget/>
+   <SectionWidget/> */}
+   {/* <FooterWidget/> */}
      </main>
   );
 }

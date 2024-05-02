@@ -1,16 +1,35 @@
 "use client";
 import Image from "next/image";
 import localFont from 'next/font/local'
+import SliderWidget from "./SliderWidget";
 
 
 const Futura = localFont({
     src:'../app/fonts/futura/futura-pt-heavy.otf',
   });
 
+  const SabiiImages = [
+ './images/sabii_gal.png',
+ './images/sabii_gal3.png',
+ './images/sabii_gal2.png',
+  ];
+
 export default function HeaderMeWidget(){
 return <>
-<div className="flex flex-col gap-0 mt-40 lg:mt-10 justify-center items-center h-[60%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
-<div className=" max-w-[848px] w-full mx-auto mt-[40px] flex flex-col justify-center items-center ">
+<div className="mb-30 flex flex-col gap-0 mt-40 lg:mt-10 justify-center items-center h-[70%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
+
+
+
+
+<div className="container mx-auto">
+    <div className="w-full h-full lg:h-[500px] flex flex-col lg:flex-row">
+    <img
+           src="./images/sabii_gal3.png"
+            className="w-auto md:w-[350px] lg:w-[400px] h-full object-cover rounded-lg"
+          />
+
+          <div className="w-full lg:w-8/12">
+          <div className=" max-w-[848px] w-full mx-auto mt-[40px] flex flex-col justify-center items-center ">
     <a href="#testimonials" className="transition-all hover:scale-95 hover:shadow-md hover:shadow-blue-600/10 mb-2 lg:mb-10 flex flex-nowrap bg-white/10 items-center gap-x-4 px-4 py-1 rounded-full border border-1 border-white/20" 
 
  >
@@ -58,6 +77,18 @@ return <>
                 <span className="letter">Y</span>
             </span>
         </span>
+
+        <span className="hero-h1">
+            <span className="tricksword">
+                <span className="letter">t</span>
+                <span className="letter">r</span>
+                <span className="letter">a</span>
+                <span className="letter">d</span>
+                <span className="letter">i</span>
+                <span className="letter">n</span>
+                <span className="letter">g</span>
+            </span>
+        </span>
         <span className="hero-h1">
             <span className="tricksword">
                 <span className="letter">S</span>
@@ -70,36 +101,18 @@ return <>
                 <span className="letter">y</span>
             </span>
         </span>
-        <span className="hero-h1">
-            <span className="tricksword">
-                <span className="letter">F</span>
-                <span className="letter">i</span>
-                <span className="letter">r</span>
-                <span className="letter">s</span>
-                <span className="letter">t</span>
-            </span>
-        </span>
-        <span className="hero-h1">
-            <span className="tricksword">
-                <span className="letter">A</span>
-                <span className="letter">p</span>
-                <span className="letter">p</span>
-                <span className="letter">r</span>
-                <span className="letter">o</span>
-                <span className="letter">a</span>
-                <span className="letter">c</span>
-                <span className="letter">h</span>
-            </span>
-        </span>
+      
     </h1>
 
-    <p  className="text-[18px] text-center max-w-[320px] lg:max-w-[500px] mx-auto mb-40">My sales and marketing solutions are strategically assigned each month to adapt quickly and hit your goals.</p> 
+    <p  className="text-[18px] text-center max-w-[320px] lg:max-w-[500px] mx-auto mb-10 hidden lg:block">My sales and marketing solutions are strategically assigned each month to adapt quickly and hit your goals.</p> 
 
     <a  target="_blank" className="bg-white px-6 py-4 rounded-xl text-black font-bold text-xl cursor-pointer hover:bg-opacity-95 transition-all hover:scale-95">Book a Free Consultation</a>
 
-</div>
+</div> 
+          </div>
+        </div>
 
-
+    </div>
 
 </div>
 

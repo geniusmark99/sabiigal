@@ -15,7 +15,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} box-border`}>{children}</body>
+      <body className={`${inter.className} box-border overflow-x-hidden bg-cover bg-center bg-no-repeat`} style={{backgroundImage: "url('./images/pattern.svg')" }}>{children}</body>
     </html>
   );
 }
