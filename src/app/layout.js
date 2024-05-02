@@ -8,6 +8,10 @@ export const metadata = {
   description: "Get Inspired with Sabii gal in the world of Forex",
 };
 
+export const viewport = {
+  themeColor: 'black',
+}
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
