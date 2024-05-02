@@ -1,8 +1,9 @@
 "use client";
 import { motion, sync, useCycle } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Nav } from "./Nav";
 import { MenuItem } from "./MenuItem";
+import ModalWidget from "./ModalWidget";
 
 function useDimensions(ref) 
 {
@@ -96,10 +97,17 @@ const sidebar = {
 
 export default function HeaderWidget(){``
     const [isOpen, toggleOpen] = useCycle(false, true);
+    const [isModalOpen,setModalOpen] = useState(false);
     const containerRef = useRef(null);
     const { height } = useDimensions(containerRef);
 
+const openModalWidget = ()=> {
+  setModalOpen(true);
+}
 
+const closeModalWidget= () => {
+setModalOpen(false);
+}
 
 return(
     <>
@@ -139,6 +147,7 @@ Testimonies
 <button className={`${isOpen ? "hover:text-white border-black hover:border-white text-black hover:bg-black lg:text-white lg:hover:bg-white lg:hover:text-black lg:border-white lg:hover:border-black" : "text-white hover:bg-white hover:text-black border-whitehover:border-black"} 
 transition-all px-4 md:px-6  py-1 lg:py-2 bg-transparent rounded-xl  border relative z-[1000] hover:scale-95
  `}
+ onClick={openModalWidget}
 
 
 >
@@ -146,6 +155,8 @@ transition-all px-4 md:px-6  py-1 lg:py-2 bg-transparent rounded-xl  border rela
    
     Get in Touch
 </button>
+
+<ModalWidget isOpen={isModalOpen} onClose={closeModalWidget}/>
 {/* HERE */}
 
 <button onClick={()=> toggleOpen()} 
