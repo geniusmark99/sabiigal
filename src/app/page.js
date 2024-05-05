@@ -27,11 +27,7 @@ export default function Home() {
    <AboutWidget/>
    <SectionWidget/>
    <TestimoniesWidget/>
-
-   {/* 
-   
-  
-   <FooterWidget/> */}
+   <FooterWidget/>
      </main>
   );
 }
