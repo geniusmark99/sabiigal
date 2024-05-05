@@ -1,7 +1,7 @@
 export default function SectionWidget() {
     return <>
     
-<div className="relative overflow-hidden">
+<div className="relative overflow-hidden mt-20">
   <div aria-hidden="true" className="flex absolute -top-96 start-1/2 transform -translate-x-1/2">
     <div className="bg-gradient-to-r from-violet-300/50 to-purple-100 blur-3xl w-[25rem] h-[44rem] rotate-[-60deg] transform -translate-x-[10rem] dark:from-violet-900/50 dark:to-purple-900"></div>
     <div className="bg-gradient-to-tl from-blue-50 via-blue-100 to-blue-50 blur-3xl w-[90rem] h-[50rem] rounded-fulls origin-top-left -rotate-12 -translate-x-[15rem] dark:from-indigo-900/70 dark:via-indigo-900/70 dark:to-blue-900/70"></div>
@@ -10,36 +10,103 @@ export default function SectionWidget() {
   <div className="relative z-10">
     <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
       <div className="max-w-2xl text-center mx-auto">
-        <p className="inline-block text-sm font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-          Preline: A vision for 2023
+        <p className="inline-block text-xl font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
+          My Journey as a successful Trader
         </p>
 
-        <div className="mt-5 max-w-2xl">
-          <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-            The Intuitive Web Solutions
-          </h1>
-        </div>
 
         <div className="mt-5 max-w-3xl">
-          <p className="text-lg text-gray-600 dark:text-neutral-400">Preline UI is an open-source set of prebuilt UI components, ready-to-use examples and Figma design system based on the utility-first Tailwind CSS framework.</p>
+          <h1 className="block font-semibold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
+            My Intuitive Tough Journey on Trading
+          </h1>
+
+          <div className="mt-10 relative flex">
+            <div className="relativex justify-center mt-10 items-center flex before:absolute before:content-[''] before:h-full px-3 before:bg-gradient-to-tr before:from-cyan-500 before:to-transparent  before:w-[1px]  before:left-1 before:top-0 lg:before:top-1 lg:before:left-0"></div>
+           
+            {/* <div className="flex flex-col justify-between h-[400px] relative w-8 lg:w-full">
+             <div className="size-2 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full relative before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px]"></div>
+             <div className="size-2 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full relative before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px]"></div>
+             <div className="size-2 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full relative before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px] "></div>
+            </div> */}
+
+            <div className="flex justify-between flex-col mt-5 lg:mt-10 gap-y-10">
+            <article className="text-left ml-2 lg:ml-0">
+              <div className="flex justify-between mb-5 relative">
+             <div className="size-2  absolute top-2 -left-8 lg:-left-7 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px]"></div>
+
+              <time className="font-bold">Nov 27, 2019</time>
+              <h1 className="text-base md:text-xl font-semibold">The Year I began</h1>
+              </div>
+
+              <div className="flex flex-col gap-y-5 shadow-md shadow-gray-950/5">               
+              
+               <div className="bg-gradient-to-b from-gray-400/40 to-transparent p-[1px] rounded-[1.5rem] mb-4">
+                  <img src="../images/bg-gradient.png" alt="" className="rounded-[inherit]"/>
+                </div>
+
+                <div className="text-left text-base lg:text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.
+                </div>
+
+              </div>
+            </article>
+
+            <article className="text-left ml-2 lg:ml-0">
+              <div className="flex justify-between mb-5 relative">
+             <div className="size-2  absolute top-2 -left-8 lg:-left-7 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px]"></div>
+                
+              <time className="font-bold">Nov 27, 2019</time>
+              <h1 className="text-base md:text-xl font-semibold">The Year I began</h1>
+              </div>
+
+              <div className="flex flex-col gap-y-5 shadow-md shadow-gray-950/5">               
+              
+               <div className="bg-gradient-to-b from-gray-400/40 to-transparent p-[1px] rounded-[1.5rem] mb-4">
+                  <img src="../images/bg-gradient.png" alt="" className="rounded-[inherit]"/>
+                </div>
+
+                <div className="text-left text-base lg:text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.
+                </div>
+
+              </div>
+            </article>
+
+
+              <article className="text-left ml-2 lg:ml-0">
+              <div className="flex justify-between mb-5 relative">
+             <div className="size-2  absolute top-2 -left-8 lg:-left-7 bg-gradient-to-br from-teal-500 to-blue-600 flex justify-center items-center rounded-full before:size-4 before:content-[''] before:bg-red-200/20 before:absolute  before:rounded-full before:left-[-4px] before:top-[-4px]"></div>
+
+              <time className="font-bold">Nov 27, 2019</time>
+              <h1 className="text-base md:text-xl font-semibold">The Year I began</h1>
+              </div>
+
+              <div className="flex flex-col gap-y-5 shadow-md shadow-gray-950/5">               
+              
+               <div className="bg-gradient-to-b from-gray-400/40 to-transparent p-[1px] rounded-[1.5rem] mb-4">
+                  <img src="../images/bg-gradient.png" alt="" className="rounded-[inherit]"/>
+                </div>
+
+                <div className="text-left text-base lg:text-xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident.
+                </div>
+
+              </div>
+            </article>
+            </div>
+
+          </div>
+
         </div>
 
-        <div className="mt-8 gap-3 flex justify-center">
-          <a className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="#">
-            Get started
-            <svg className="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-          </a>
-          <a className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-800" href="#">
-            <svg className="flex-shrink-0 size-4" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M6.875 18C8.531 18 9.875 16.656 9.875 15V12H6.875C5.219 12 3.875 13.344 3.875 15C3.875 16.656 5.219 18 6.875 18Z" fill="#0ACF83"></path>
-              <path d="M3.875 9C3.875 7.344 5.219 6 6.875 6H9.875V12H6.875C5.219 12 3.875 10.656 3.875 9Z" fill="#A259FF"></path>
-              <path d="M3.875 3C3.875 1.344 5.219 0 6.875 0H9.875V6H6.875C5.219 6 3.875 4.656 3.875 3Z" fill="#F24E1E"></path>
-              <path d="M9.87501 0H12.875C14.531 0 15.875 1.344 15.875 3C15.875 4.656 14.531 6 12.875 6H9.87501V0Z" fill="#FF7262"></path>
-              <path d="M15.875 9C15.875 10.656 14.531 12 12.875 12C11.219 12 9.87501 10.656 9.87501 9C9.87501 7.344 11.219 6 12.875 6C14.531 6 15.875 7.344 15.875 9Z" fill="#1ABCFE"></path>
-            </svg>
-            Preline Figma
-          </a>
-        </div>
+
+       
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@ const Futura = localFont({
 
 export default function HeaderMeWidget(){
 return <>
-<div className="flex flex-col gap-0 lg:mt-40 mt-20 justify-center items-center h-[70%] lg:h-[60%] py-[80px] lg:py-[96px] z-[-2]">
+<div className="flex flex-col gap-0 lg:mt-40 mt-20 justify-center items-center h-[70%] lg:h-[60%]  z-[-2]">
 
 <div className="container mx-auto mb-40">
     <div className="w-full h-full lg:h-[500px] flex flex-col lg:flex-row">

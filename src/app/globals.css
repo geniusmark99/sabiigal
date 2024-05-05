@@ -52,4 +52,25 @@ body {
   .hero-h1 {
     @apply lg:mb-[-12px] pr-[3px] inline-block mx-1
   }
+
+  .progress-bar {
+    webkit-mask-image: linear-gradient(0deg, transparent, #fff 150px, #fff);
+    mask-image: linear-gradient(0deg, transparent, #fff 150px, #fff);
+    @apply overflow-hidden w-[0.125rem] h-full z-[-10] top-4 left-[2px] bg-gray-800 absolute
+   }
+
+   .progress-bar::after {
+  content: var(--tw-content);
+  position: absolute;
+  animation: shine 5s linear 500ms infinite;
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  background-image: linear-gradient(180deg, transparent, rgb(168 85 247 / .65) 25%, #e9d5ff 50%, rgb(168 85 247 / .65) 75%, transparent);
+  width: 0.125rem;
+  height: 1rem;
+  left: 0px;
+  top: 0px;
+  }
+
+
 }

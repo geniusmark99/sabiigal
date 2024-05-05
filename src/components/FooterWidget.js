@@ -20,8 +20,8 @@ export default function FooterWidget(){
 
         <div className="mt-3 grid space-y-3">
           <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200" href="#">Pricing</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200" href="#">Changelog</a></p>
-          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200" href="#">Docs</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200" href="#">TradeView</a></p>
+          <p><a className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200" href="#">My Community</a></p>
         </div>
       </div>
 
@@ -30,7 +30,7 @@ export default function FooterWidget(){
 
     <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
       <div className="flex justify-between items-center">
-        <p className="text-sm text-gray-400 dark:text-neutral-400">© 2022 SabiiGal. All rights reserved.</p>
+        <p className="text-sm text-gray-400 dark:text-neutral-400">© 2024 SabiiGal. All rights reserved.</p>
       </div>
      
       <div>

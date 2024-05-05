@@ -9,14 +9,14 @@ const Futura = localFont({
 export default function AboutWidget(){
 return <>
 
-<section className="h-screen min-h-[840px] bg-cover lg:mt-20 mt-20">
+<section className=" bg-cover lg:mt-20">
 
 <div className="">
-  <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 flex flex-col-reverse lg:flex-row">
+  <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col-reverse lg:flex-row">
     <div className="w-full">
     <div className="flex flex-col justify-center">
-    <div className="max-w-3xl text-center mx-auto">
-      <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+    <div className="max-w-3xl text-center mx-auto flex justify-center items-center">
+      <h1 className="block font-medium text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:my-20 my-5">
         Now it&apos;s easier than ever to master Trading with <span className="font-bold  text-blue-600">Sabii Gal</span>
       </h1>
     </div>
