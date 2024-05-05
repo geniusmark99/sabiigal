@@ -3,7 +3,7 @@ export default function TestimoniesWidget(){
 <div className="overflow-hidden bg-neutral-950" id="testimonials">
   <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div className="text-center mb-10">
-        <h1 className="text-3xl font-semibold text-white md:text-4xl">Don't take my words for it</h1>
+        <h1 className="text-3xl font-semibold text-white md:text-4xl">Don &apos; t take my words for it</h1>
         <p className="max-w-2xl mx-auto mt-6 text-base  ">Trust The Traders Trained from Sabii Gal Community</p>
     </div>
     {/* <div className="max-w-2xl w-3/4 lg:w-1/2 mb-6 sm:mb-10 md:mb-16">
@@ -67,7 +67,7 @@ export default function TestimoniesWidget(){
         </div>
       </div>
     
-      <div className="flex h-auto">
+      <div className="flex h-auto"> 
         <div className="flex flex-col bg-white rounded-xl dark:bg-neutral-900">
           <div className="flex-auto p-4 md:p-6">
             <p className="text-base italic md:text-lg text-gray-800 dark:text-neutral-200">

@@ -2,6 +2,8 @@
 import Image from "next/image";
 import localFont from 'next/font/local'
 import SliderWidget from "./SliderWidget";
+import sabiGalImg from "/public/images/sabii_gal3.png"
+
 
 
 const Futura = localFont({
@@ -21,8 +23,9 @@ return <>
 <div className="container mx-auto mb-40">
     <div className="w-full h-full lg:h-[500px] flex flex-col lg:flex-row">
         {/* <SliderWidget images={SabiiImages}/> */}
-    <img
-           src="./images/sabii_gal3.png"
+    <Image
+    alt="Sabi Gal Second Image"
+           src={sabiGalImg}
             className="w-auto md:w-[350px] lg:w-[500px] h-full object-cover rounded-lg"
           />
 

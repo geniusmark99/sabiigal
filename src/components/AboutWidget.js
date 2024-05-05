@@ -1,5 +1,8 @@
 import localFont from 'next/font/local'
 import Image from 'next/image';
+import sabiGalImg2 from "/public/images/sabii_gal2.png"
+
+
 const Futura = localFont({
   src:'../app/fonts/futura/futura-pt-heavy.otf',
 });
@@ -27,8 +30,10 @@ return <>
     </div>
           </div>
 
-    <img
-           src="./images/sabii_gal2.png"
+    <Image
+           src={sabiGalImg2}
+           alt='Sabi Gal Image'
+       
             className="w-auto md:w-[350px] lg:w-[500px] h-full object-cover rounded-lg"
           />
 
