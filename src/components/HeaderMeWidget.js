@@ -26,6 +26,7 @@ return <>
     <Image
     alt="Sabi Gal Second Image"
            src={sabiGalImg}
+           priority
             className="w-auto md:w-[350px] lg:w-[500px] h-full object-cover rounded-lg"
           />
 

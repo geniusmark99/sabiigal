@@ -1,3 +1,9 @@
+import Image from "next/image"
+import TestimoniesImg1 from "/public/images/Test1.jpg";
+import TestimoniesImg2 from "/public/images/Test2.jpg";
+import TestimoniesImg3 from  "/public/images/Test3.jpg";
+
+
 export default function TestimoniesWidget(){
     return <>
 <div className="overflow-hidden bg-neutral-950" id="testimonials">
@@ -24,7 +30,9 @@ export default function TestimoniesWidget(){
           <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-neutral-800">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description"/>
+                <Image className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" 
+src={TestimoniesImg1}                
+                alt="Image Description"/>
               </div>
 
               <div className="grow ms-3">
@@ -51,7 +59,11 @@ export default function TestimoniesWidget(){
           <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-neutral-800">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description"/>
+                <Image className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" 
+                
+src={TestimoniesImg2}                
+                alt="Image Description"/>
+
               </div>
 
               <div className="grow ms-3">
@@ -78,7 +90,9 @@ export default function TestimoniesWidget(){
           <div className="p-4 bg-gray-100 rounded-b-xl md:px-7 dark:bg-neutral-800">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <img className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80" alt="Image Description"/>
+                <Image className="size-8 sm:h-[2.875rem] sm:w-[2.875rem] rounded-full" 
+                src={TestimoniesImg3}                
+                alt="Image Description"/>
               </div>
 
               <div className="grow ms-3">

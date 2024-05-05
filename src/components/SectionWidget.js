@@ -92,7 +92,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
               <div className="flex flex-col gap-y-5 shadow-md shadow-gray-950/5">               
               
                <div className="bg-gradient-to-b from-gray-400/40 to-transparent p-[1px] rounded-[1.5rem] mb-4">
-                  {/* <img src="../images/bg-gradient.png" alt="" className="rounded-[inherit]"/> */}
                   <Image  src={gradientImg} alt="Gradient Image" className="rounded-[inherit]"/>
 
                 </div>
